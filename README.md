@@ -19,3 +19,8 @@ sub, タイトル,10401,2h
 
 $ ruby issue.rb -u {user} -p {password} -c sample.csv -r test -f TST
 
+-u Atlassianアカウントのユーザー名  
+-p Atlassianアカウントのパスワード  
+-c CSVファイル  
+-r プロジェクト名。xxx.atlassian.net の「xxx」の部分  
+-f チケットプレフィックス
